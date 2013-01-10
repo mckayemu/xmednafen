@@ -14,3 +14,6 @@ use command line or edit the (future) config file.
 
 This project will integrate the older emuexec and kemuexec for kde3 and lxde.
 
+For historycally issue, see the README.debin file.
+
+This launcher will supresed and recreate in GPL issue th mckaysuite complety.
