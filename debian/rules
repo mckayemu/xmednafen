@@ -1,0 +1,72 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+build:
+
+clean:
+	dh_testdir
+	dh_testroot
+
+	dh_clean 
+
+install:
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+	mkdir -p $(CURDIR)/debian/xmednafen/usr/share/pixmaps
+	mkdir -p $(CURDIR)/debian/xmednafen/usr/bin
+	mkdir -p $(CURDIR)/debian/xmednafen/usr/share/applications
+	cp -a debian/Xmednafen.desktop $(CURDIR)/debian/xmednafen/usr/share/applications
+	cp -a xmednafen.sh $(CURDIR)/debian/xmednafen/usr/bin/xmednafen
+	cp -a debian/mednafen-icon.xpm $(CURDIR)/debian/xmednafen/usr/share/pixmaps
+	chmod 755 $(CURDIR)/debian/xmednafen/usr/bin/xmednafen
+	mkdir -p $(CURDIR)/debian/xmednafen/var/emulation/general
+	cp -a usr/bin/template* $(CURDIR)/debian/xmednafen/var/emulation/general/templatelaucher
+
+
+# Build architecture-independent files here.
+binary-indep: install
+
+# We have nothing to do by default.
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+#	dh_installdocs
+#	dh_installexamples
+	dh_install
+	dh_installmenu
+#	dh_installdebconf	
+#	dh_installlogrotate
+#	dh_installemacsen
+#	dh_installpam
+#	dh_installmime
+#	dh_installinit
+#	dh_installcron
+#	dh_installinfo
+#	dh_installman debian/emulators-launchers-essencials.1
+	dh_desktop
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+#	dh_perl
+#	dh_python
+#	dh_makeshlibs
+	dh_installdeb
+#	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep
+.PHONY: clean binary-indep binary install

@@ -1,0 +1,50 @@
+Source: xmednafen
+Section: otherosfs
+Priority: optional
+Maintainer: McKAY emu team <qgqlochekone@gmail.com>, VENENUX team <venenux@gmail.com>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.1
+
+Package: xmednafen
+Architecture: any
+Depends: bash (>= 3.0), mednafen, zenity | kdialog | kdebase-bin | dialog
+Provides: nes-emulator, pce-emulator, gbc-emulator, gba-emulator, sms-emulator, smd-emulator, sgg-emulator, snes-emulator, ngp-emulator, wsc-emulator, emulation-launchers-essencials, vnz-emulators-launchers-essencials, emulators-launchers-essencial
+Replaces: emulation-launchers-essencials, vnz-emulators-launchers-essencials, VNZ-emulators-launchers-essencials
+Description: A binaries launchers for emulators using easy original console names
+ from VENENUX, the most powerfully distro multimedia oriented,
+ this package is a lite version of launchers factory that handles
+ specifies settings for open the main used emulators and displaying
+ for VENENUX-mame edition and VENENUX based derived distros, 
+ view the status of a game, change its preferences and launch it.
+ Homepage: http://qgqlochekone.blogspot.com
+ .
+ The "xmednafen" command now abstract launchers names are most 
+ closed to original names console:
+ .
+  nintendo ( for nes , the nintendo entertaiment system 8 bit )
+  segamegadrive ( mastersystem, genesis, megadrive and 32X )
+  segagenesys ( launcher for sega genesys 16bit first generation )
+  gamegear ( the gamegear sega portable )
+  mastersystem ( for the 8bit Sega Master System home console )
+  neogeo ( the console and arcadia ) 
+  pcengine ( pc-engine, turbograxf, 16 bit consoles )
+  turbografx ( pc-engine, turbograxf, 16 bit consoles )
+  supernintendo ( snes, the Super nintendo entertaiment system 16 bit)
+  gameboyall ( all gameboy suportes as gb, gbc, gba and sgb )
+  gameboycolor ( all supergameboy and gameboycolor )
+  nintendo64 ( launcher using old emu for nintendo n64 )
+  ultra64 ( nintendo 64 powerfully console usin new emulator )
+  msdos ( dosbox launcher for all close graphics dos games! )
+  freedos ( freedos DOS OS clone launcher for all dos issues )
+  neogeopocket ( neogeo pocket and neogeo color launcher )
+  qemucdrom ( launch and boot qemu using cdrom device or cd image iso argument )
+  qemulinux ( launch and boot qemu using linux 2.6.20 "win"-hat OS image )
+  qemuminix ( launch and boot qemu using minix 4.0.2 OS image )
+  qemuarm ( launch and boot qemu using linux arm hard and OS image )
+  qemusparc ( launch and boot qemu using sparc linux 2.6 hardware image )
+  mame ( launcher for M.A.M.E  for arcades and coin up machines )
+  mame3d ( launcher for M.A.M.E  for 3D arcades and coin up machines )
+ .
+ PICCORO has put own settings, for configure u must have to
+ learn bash and vim usability. Linux Power for smart non-MS users |-].
+
