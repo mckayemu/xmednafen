@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=X-Mednafen VNX
+GenericName=Mednafen Grafical laucher
+Type=Application
+Categories=Game;Emulator
+Exec=sh /usr/bin/xmednafen %f
+Icon=/usr/share/pixmaps/mednafen-icon.xpm

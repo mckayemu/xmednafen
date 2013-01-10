@@ -1,0 +1,6 @@
+?package(xmednafen):\
+	needs="X11"\
+	section="Apps/Emulators"\
+	title="X Mednafen Launcher"\
+	icon="/usr/share/pixmaps/mednafen-icon.xpm"\
+	command="/usr/bin/xmednafen %f"

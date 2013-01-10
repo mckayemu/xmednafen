@@ -1,0 +1,143 @@
+xmednafen (1.0) experimental; urgency=low
+
+  * New upstream release REDONE ALL NOW WITH DEBIAN INTEGRATION AND X detection!.
+  * experimental must refine
+
+ -- McKAY emu team <qgqlochekone@gmail.com>  Mon, 6 Feb 2012 05:03:54 -0430
+
+emulators-launchers-essencials (3.2) stable; urgency=high
+
+  * New upstream release REDONE ALL NOW WITH DEBIAN INTEGRATION AND X detection!.
+  * debian/README*:
+    + update info and issues on readme files: README and README.Debian!
+    + make link to readme files updates!
+  * debian/control:
+    + improves and update description package again.
+    + update depends for new support: dosemu >= 1.4.0.
+    + update depends for new support: qemu.
+    + update suggests for new support: qemu images.
+    + update suggests for new support: mednafen and gens    
+    + ajust depends on mupen64 and mupen64plus, mupen64plus uses old GLM64 plugin
+  * debian/links :
+    + make link to readme files updates! to emuzone
+  * debian/rules :
+    - remove template from /usr/bin in package
+    + put template launcher in general emuzone /var/emulation/general/templatelauncher
+    - remove launcheressencials from general emuzone
+    + put directly READMEs in general emuzone /var/emulation/general/README*
+  * /usr/bin/* :
+    + detection of X session for launch process, or info dialog! 
+    + provide mensage usage for all launchers, if no argumen rom game its parsing
+    + provide a template launcher for new localy users emulation launchs
+    + update n64 issues, mupen64 launchers
+    + added nintendo64 launcher, using mupen64 0.5, gln64, jttl audio, basic input
+    + added ultra64 launcher, using mupen64plus 1.4, gln64, jttl audio, blith input
+    + split mame related laucher, mame and mame3d, mame now uses videomode 2, xv!
+    + added mame3d using videomode 2 opengl, but need great GPU 4th or 5th generation
+    + added mastersystem link to gamegear, osmose are same for gamegear and mastersystem!
+    + added turbografx link to pcengine, hugo emulator handle both related!
+    + updates mame to new params and mitshred memoty, added rom paths
+    + updates neogeo to more options and more paths support
+    + updates the gameboy lauchers, now not use HOME config file
+    + updates dos launcher, now dosemu 1.4 from mckay asumes all issues
+    - removed dos dosconsole launcher, now one dosemu binary hancle all
+    - no launcher for dosbox, console launchers only for expert settings
+    + updates sega genesys and megadrive, now dgen only for genesys.
+    + use gens for megadrive, segacd and 32X, are the only opensource emu for this!
+    + new support for qemu: launchers for i386, mips, sparc...
+    + new launcher for neogeo pocket
+    + new launcher for lynx, using mednafen!
+    + added laucher for qemu using minix 2.0.4 in x86! memory 64Mb, disk 2G!
+    + added laucher for qemu using arm! memory 32Mb, disk 2G!
+    + added laucher for qemu using linux 2.6.18 in sparc!  memory 64Mb, disk 2G!
+    + added laucher for qemu using linux 2.6.20 in x86!  memory 64Mb, disk 2G!
+
+ -- McKAY emu team <qgqlochekone@gmail.com>  Sat, 22 Nov 2008 05:03:54 -0400
+
+emulators-launchers-essencials (3.1) stable; urgency=medium
+
+  * New upstream release.
+  * debian/README*:
+    + update info and issues on readme files: README and README.Debian!
+    + make link to readme files updates!
+  * debian/control:
+    + improves and update description package again.
+    + update depends for new support: dosemu >= 1.4.0.
+    + update depends for new support: qemu.
+    + update suggests for new support: qemu images.
+    + update suggests for new support: mednafen and gens    
+    + ajust depends on mupen64 and mupen64plus, mupen64plus uses old GLM64 plugin
+  * debian/links :
+    + make link to readme files updates! to emuzone
+  * debian/rules :
+    - remove template from /usr/bin in package
+    + put template launcher in general emuzone /var/emulation/general/templatelauncher
+    - remove launcheressencials from general emuzone
+    + put directly READMEs in general emuzone /var/emulation/general/README*
+  * /usr/bin/* :
+    + provide mensage usage for all launchers, if no argumen rom game its parsing
+    + provide a template launcher for new localy users emulation launchs
+    + update n64 issues, mupen64 launchers
+    + added nintendo64 launcher, using mupen64 0.5, gln64, jttl audio, basic input
+    + added ultra64 launcher, using mupen64plus 1.4, gln64, jttl audio, blith input
+    + split mame related laucher, mame and mame3d, mame now uses videomode 2, xv!
+    + added mame3d using videomode 2 opengl, but need great GPU 4th or 5th generation
+    + added mastersystem link to gamegear, osmose are same for gamegear and mastersystem!
+    + added turbografx link to pcengine, hugo emulator handle both related!
+    + updates mame to new params and mitshred memoty, added rom paths
+    + updates neogeo to more options and more paths support
+    + updates the gameboy lauchers, now not use HOME config file
+    + updates dos launcher, now dosemu 1.4 from mckay asumes all issues
+    - removed dos dosconsole launcher, now one dosemu binary hancle all
+    - no launcher for dosbox, console launchers only for expert settings
+    + updates sega genesys and megadrive, now dgen only for genesys.
+    + use gens for megadrive, segacd and 32X, are the only opensource emu for this!
+    + new support for qemu: launchers for i386, mips, sparc...
+    + new launcher for neogeo pocket
+    + new launcher for lynx, using mednafen!
+    + added laucher for qemu using minix 2.0.4 in x86! memory 64Mb, disk 2G!
+    + added laucher for qemu using arm! memory 32Mb, disk 2G!
+    + added laucher for qemu using linux 2.6.18 in sparc!  memory 64Mb, disk 2G!
+    + added laucher for qemu using linux 2.6.20 in x86!  memory 64Mb, disk 2G!
+
+ -- PICCORO Lenz McKAY <qgqlochekone@gmail.com>  Sat, 22 Nov 2008 05:03:54 -0400
+
+emulators-launchers-essencials (3.0.1kdialog1) stable; urgency=medium
+
+  * New upstream release. 
+    + relese alternative with X kde dialogs, so...
+  * debian/README*:
+    + update info and issues on readme files: README and README.Debian!
+    + make link to readme files updates!
+  * debian/control:
+    + improves and update description package again.
+  * debian/links :
+    + make link to readme files updates! to emuzone
+  * debian/rules :
+    - remove template from /usr/bin in package
+    + put template launcher in general emuzone /var/emulation/general/templatelauncher
+    - remove launcheressencials from general emuzone
+    + put directly READMEs in general emuzone /var/emulation/general/README*
+  * /usr/bin/* :
+    + provide mensage usage for all launchers, if no argumen rom game its parsing
+
+ -- PICCORO Lenz McKAY <qgqlochekone@gmail.com>  Sat, 22 Nov 2008 05:03:54 -0400
+
+emulators-launchers-essencials (3.0) unstable; urgency=low
+
+  * NEW! Initial Release.
+  * debian/control:
+    + improves and update description package.
+  * /usr/bin/* :
+    + change all launchers names to console original names!
+    + updates mame to new params and mitshred memoty, added rom paths
+    + updates neogeo to more options and more paths support
+    + updates the gameboy lauchers, now not use HOME config file
+    + updates dos launcher, now skip all questions and launcht directly!
+    + updates sega genesys and megadrive, now dgen only for genesys.
+
+ -- PICCORO Lenz McKAY <qgqlochekone@gmail.com>  Sat, 22 Nov 2008 05:03:54 -0400
+
+Local variables:
+mode: debian-changelog
+End:

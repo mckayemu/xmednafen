@@ -1,0 +1,19 @@
+D=done, N = not alowed,change, * = pending, R = remove
+
+D wrapper launcher for xmess, for kxmame support on alternatives
+* wrapper list consoles most uses for xmess binary similary!
+* complety GPL alternative to megadrive and sega32x
+* complety GPL alternative to arcade games and coin up relateds!
+N hidden memus entrys for kde env, for registrered usage
+N support for xfce desktop and elive desktop
+N refuse support for the ugly grotes gnome env desktop (i realy hate releases over 2.0)
+* playstation support
+* MANPAGES PER LAUNCHERS!!!!!
+
+D update the neogeo launcher
+D update the snes launcher
+D update the pcengine launcher
+* put defined needed rc or config files
+* documentation minimal
+* menues for debian (must added the "launcher" word)
+D menues for kde and mimes systems
