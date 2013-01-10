@@ -1,0 +1,104 @@
+emulators-launchers-essencials for Debian
+-----------------------------------------
+
+1 INFO
+2 ABOUT AUTOMATIZED CONFIGURATION and gamepad/controls
+3 LAUNCHERS
+4 GPL ISSUES
+5 DESKTOPS SUPPORT
+
+------------ 1 INFO
+
+The issues about this package are launchers for main emulators knowing 
+in Venezuela, also the important are that all related must be GPL, for 
+the VENENUx proyect, the only linux that provides all usage and multimedia 
+related using only GPL soft!
+
+Currently the emulaucher are in WIP work-in-progress stage (trabajo en progreso), 
+now all lauchers will be asumed by only one script and fully automatized 
+and offerts a powered gui! 
+
+------------ 2 ABOUT AUTOMATIZED CONFIGURATION
+
+The configuration will be based fully on two factors, rom file and machine host
+i explain that:
+a) if a poor hardware will detected, configuration will be most basic choice 
+if a PIII and no OpenGL found, will be used a sdl driver with none effects
+but if QuadCore and OpenGL v30 support found, used opengl with SuperEagle effects
+cos theres no reason, ridiculos for emulated a pooor hardware (like nes 8bit) 
+with a cuad core, generaly people that have a powerfully machine like AMD xphenon
+uses for emulated PSX2 or NDS, not NES or GameBoy!!! PLEASE!!!
+b) the emulator will be configured based on file rom extension, and previous 
+topic(a), by example if found "smc" extension and poor hardware will use snes9x, 
+otherwise if found "smc" and very good hardware, will use mednafen recent releases, 
+of course, the rom/file/game must have a valid extension accord to format, theres 
+many formats of roms for emulators, example, independent of extension internaly
+the rom for nes theres "iNES image" and "Family Disk Computer" formats
+
+GAMEPAD?
+
+Configuration for gamepads are out of topic, theres a internaly issue iselft 
+of emulators, so are plains for make a gui for that purpose appart off frontend.
+
+------------ 3 LAUNCHERS
+
+Name of alunchers are non important, are usefully only for console usage, 
+cos the name itselft are used for configuration and settings respect rom file.
+
+..the launchers to 3.0/3.1 are now:
+
+dreamcast
+nintendo64
+supernintendo
+nintendo
+gameboy
+gameboycolor/supergameboy
+gameboyadvance
+genesys
+megadrive
+gamegear
+mastersystem
+mame
+neogeo
+msdos/freedos
+pcengine
+turbografx
+atary
+playstation
+
+..more support are pending, see venenux foros or McKAY blog! for info or colaborates!
+
+------------ 3 GPL ISSUES
+
+..u must read, for info about GPL related of this launchers, NON-SENSE, the vast 
+mayority of good emulators are non-GPL, the GPL's available hav poor performance 
+one thing are sure about this launchers, some are for non-GPL due there's 
+the only solution in that cases!!
+
+for sega megadrive, the only emulator close to GPL are dgen, and recently mednafen 
+and dgen have limit support for all genesys/megadrive roms available.
+
+for neogeo pocket and wondersaw, mednafen its used, this its the only emulator   
+that are GPL and opensource, mednafen are GPL complety now, theres a lines on 
+documentation that reflects the change in code sustitution to GPL solutions.
+
+for lynx emulation, mednafen are GPL, but still need a bios firmware file.
+
+for playstation emulation, theres a psx-fin folk, pcsx are complety GPL but 
+the performance are very poor compares to epsxe closet source emulator
+
+xmame/xmess are opensource only, changes and redistribution are only with previous 
+permission of author! So this breask GPL license.
+
+------------ 4 DESKTOP SUPPORT
+
+curently i provide support for lxde, xfce4 and kde3 desktop, also added a full 
+menu debian menues entrys for debian xdg menu mime, but, i will refuse for gnome 
+cos i realy hate the heavy to come over 2.0 releases, 1.X releases was light and 
+clean, with close and litle icons, and simple apps, not heavys apps like nautilus! 
+and grotes apereance with the currenlty big gnome icons! Also, Icasa now work for ms.
+
+of course u can grab the launchers, are GPL and make support for any other desktop!
+i dont care, i have better emus closed to my preferences about gnome and winlinuxes stupid!
+
+PICCORO Lenz McKAY <mckaygerhard@gmail.com>, Sat, 22 Nov 2008 05:03:54 -0400
