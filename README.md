@@ -17,6 +17,12 @@ FEATURES
 * autodetection of environment (KDE or LXDE of XFCE only) must depend of kdebin or zenity, if not intalled launch console ncurses. (still experimental)
 * autoloading of automatic preconfigure settings at 2x of screen fo 16bit systems and 3x for 8bit and potabl systems (WIP)
 
+
+#STRUCTURE
+
+![image](https://github.com/mckayemu/xmednafen/blob/master/docs/xmednafen-flujo-1.png?raw=true)
+
+
 PLANED
 
 * handle others emulators, currently mupen64plus due are now GPL 100% and xmess wrapper fake
