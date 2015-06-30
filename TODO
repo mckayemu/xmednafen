@@ -1,5 +1,9 @@
 D=done, N = not alowed,change, * = pending, R = remove
 
+* working on qtdialog, gtkdialog, due these dont allow file filters and open operations
+* merge xmess wrapper code in script
+* source inluce module list for manage xmess wrapper and emulators list alternatives commands
+
 D wrapper launcher for xmess, for kxmame support on alternatives
 * wrapper list consoles most uses for xmess binary similary!
 * complety GPL alternative to megadrive and sega32x
