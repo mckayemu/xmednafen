@@ -1,5 +1,9 @@
-X. M.ulti E.mulator D.iN.A.mic F.ederation E.N.gine : X.M.E.D.N.A.F.E.N. 
+xmednafen
+==========
 
+This project was superset by https://codeberg.org/venenux/easymednafen
+
+X. M.ulti E.mulator D.iN.A.mic F.ederation E.N.gine : X.M.E.D.N.A.F.E.N
 
 Its a non-necessary-configurable frontend and emulator manager 
 for launch, play and use all videogame console emulators.
@@ -22,19 +26,6 @@ FEATURES
 
 ![image](https://github.com/mckayemu/xmednafen/blob/master/docs/xmednafen-flujo-1.png?raw=true)
 
-
-PLANED
-
-* handle others emulators, currently mupen64plus due are now GPL 100% and xmess wrapper fake
-* frontend for own personal configuration
-* frontend for manage rows and manage the save states (only personals)
-
-This project will integrate the older emuexec and kemuexec for kde3 and lxde.
-
-For historycally issue, see the README.debin file.
-
-This launcher will supresed and recreate in GPL issue th mckaysuite complety.
-
 REQUERIMENTS
 
 * for kde3/Razorqt users kdedialog (WIP)
@@ -43,4 +34,6 @@ REQUERIMENTS
 * mednafen >= 8.X
 * a valid debin derived distribution are only oficially supported
 
-NOTES: winbuntu users please dont right!
+NOTES: winbuntu users not allowed!
+
+New project superset this https://codeberg.org/venenux/easymednafen
